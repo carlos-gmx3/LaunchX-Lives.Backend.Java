@@ -1,2 +1,2 @@
-# LaunchX-Lives.Backend.Java
- Practicas realizadas en los lives de la misión Java
+# LaunchX-Backend.Java
+Ejercicios Semanales de la misión Backend de Java
