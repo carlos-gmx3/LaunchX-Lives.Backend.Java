@@ -1,5 +1,7 @@
 package Semana2.Hilos;
 
+import java.applet.AudioClip;
+
 public class HilosT extends Thread {
 
     @Override //Runable
