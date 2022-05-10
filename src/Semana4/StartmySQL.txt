@@ -1,0 +1,3 @@
+docker exec -it mySQLContainerInstance mysql -uroot -p
+=bG6#,ZWqG80MoeL7BZu+Q&st;536@1^
+CREATE TABLE EmpleadosDalia (idEmp INT NOT NULL, nameEmp varchar(80) NOT NULL, idDepto INT NOT NULL, PRIMARY KEY(idEmp), FOREIGN KEY(idDepto) REFERENCES DeptosDalia(idDepto))ENGINE=INNODB; 

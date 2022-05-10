@@ -80,7 +80,7 @@ public class Game {
         };
         Thread attackAshe = new Thread(attack);
         Thread attackJinx = new Thread(bombs);
-        
+
         attackAshe.start();
         attackAshe.join();
 
