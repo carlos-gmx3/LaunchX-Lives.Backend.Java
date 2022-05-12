@@ -1,0 +1,16 @@
+EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("$PERSISTENCEUNIT$");
+EntityManager entityManager = entityManagerFactory.createEntityManager();
+EntityTransaction transaction = entityManager.getTransaction();
+try {
+    transaction.begin();
+
+    $END$
+
+    transaction.commit();
+} finally {
+    if(transaction.isActive()) {
+        transaction.rollback();
+    }
+    entityManager.close();
+    entityManagerFactory.close();
+}
